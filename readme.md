@@ -15,8 +15,8 @@ This is why, i make  MK-7075UART interface.
 - isolated RS232 interface
 - SCPI & IEEE488.2 snytax 
 
-# howto using of interface
-- [![csv-file ](https://github.com/matt1187/7075UART/blob/main/howto_0_5d.md)]
+# how to using of interface
+- [![howto (LINK) ](https://github.com/matt1187/7075UART/blob/main/howto_0_5d.md)]
 
   
 # Issues 
