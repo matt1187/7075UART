@@ -5,7 +5,7 @@ This is why, i make  MK-7075UART interface.
 
 ![pictures](https://github.com/matt1187/7075UART/blob/main/pictures/7075UART-1.jpg)
 
-# PCB Revision History  (attention, two PCB type )
+# PCB Revision History 
 - MK-7075UART-00 improvement draft from  7075UART-000
 
 # Feartures
