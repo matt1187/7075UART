@@ -3,20 +3,20 @@
 *DIP Switch setting
 
 DIP SW 1 & 2 
-00: BAUD 9600
-10: BAUD 38400
-01: BAUD 57600
-11: BAUD 115200
+ - 00: BAUD 9600
+ - 10: BAUD 38400
+ - 01: BAUD 57600
+ - 11: BAUD 115200
 
 DIP SW 3
-ON: Talker-mode: Interface send after evering measure cycle value
-OFF: Listener-mode: Interface responds after commando.
+ - ON: Talker-mode: Interface send after evering measure cycle value
+ - OFF: Listener-mode: Interface responds after commando.
 
 DIP SW 4
-ON: Normal-Mode  "+10.123VDC"
-OFF:  Exponent Mode  "+1.0123E+1VDC"
+ - ON: Normal-Mode  "+10.123VDC"
+ - OFF:  Exponent Mode  "+1.0123E+1VDC"
 
 # SYNTAX
 
-*IDN?  -  interface responds with "SOLARTRON 7075 UART 0.5d"
-READ?  -  interface responds with actual measure value/data
+ - *IDN?  -  interface responds with "SOLARTRON 7075 UART 0.5d"
+ - READ?  -  interface responds with actual measure value/data
