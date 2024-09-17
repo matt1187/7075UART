@@ -1,0 +1,105 @@
+//////////////////////////////////////////
+//7075 SK1 protokoll  date 17.09.2024
+//////////////////////////////////////////
+
+
+SK1 (7075 rear connector pinout )
+2 -> D1  (multiplexing)
+3 -> Timing2³
+4 -> D2  (multiplexing)
+5 -> Timing2²
+6 -> D4  (multiplexing)
+8 -> D8  (multiplexing)
+9 -> 5V 
+
+13 -> POLARITY (H = pos, L = neg )
+
+
+17 -> STAT  (100µs positive Pulse after cycling of measuring)
+
+25 -> Serial DATA (SER_DATA)  --> 74164 shift register
+27 -> Serial CLOCK (SER_CLK)  --> 74164
+
+35 -> A1  (mux-address)
+37 -> A2  (mux-address)
+39 -> A4  (mux-address)
+41 -> A8  (mux-address)
+42 -> GND
+
+
+
+______________________________
+
+D1-D8 = multiplexed BCD Output with a special function.
+BCD 0-9  = 0-9
+BCD 10 =  A
+BCD 12 = digit blanking (faster measure time )
+BCD 14 = digit blanking  (zero suppression )
+
+_______________________________
+
+A1-A8 = Adress of BCD data.
+16 digit is transfer to SRAM, but only 8 digit is needed and adress 0 is never transfered at first.
+
+___________________________________________
+
+Timing of valid data on multiplexing data output
+
+T2³--o|----
+T2²---|  &  )o------ /WE 
+STAT--|----
+
+/WE = LOW ->  valid data, write enable.
+
+Timing diagram on SRAM
+A*  ===x====0==x====1==x====2==x====3==x====4==x====5==x====6==x====7==    ==F==x===================================
+D  ===x=======x=======x=======x=======x=======x=======x=======x=======    =====\___________________________________
+/WE-------\_/-----\_/-----\_/-----\_/-----\_/-----\_/-----\_/-----\_/-    -\_/-------------------------------------
+STAT___/--------------------------------------------------------------    ---------\_______________________________
+SER_DATA/CLK----------------------------------------------------------    -----------\==x==x==x==x==X==X==x==/-----
+DIGIT      MSB	                                                  LSB |  don't care
+*A = ADDRESS =   RANGE+1  										RANGE+8
+
+
+___________________________________________________
+
+Serial data
+
+74164 is droved by Serial DATA & CLOCK line.
+Serial data is come after "STAT"-Pulse, ~80µs lenght
+
+74164 output
+	80	40	20	10	08	04	02	01
+	A	B	C	D	E	F	G	H
+	1	2 |RA- |1	2	4 | 2	1
+	STEP  |ITO | RANGE 	  | MODE
+
+STEP = STEP of self check
+
+
+
+RAITO = high  RAITO	, low  NORMAL
+
+RANGE  	AC/DC      OHM   (on 7075UART)
+7 =  	10 mV(DC)   10		0
+6 =    100 mV	   100		1	
+5 =    	 1 V	 	1k		2
+4 =     10 V	   10k		3
+3 =    100 V   	  100k		4
+2 =      1 kV    	1M		5
+1 = 	  x        10M		6
+0 =		AUTO RANGE			7
+							
+							
+
+MODE
+0 = SELFCHECK
+1 = OHM
+2 = AC VOLTS
+3 = DC VOLTS
+
+
+
+
+
+
