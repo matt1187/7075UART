@@ -1,4 +1,4 @@
-# HOWTO for  MK-7075UART Interface with Firmware 0.5d
+# HOW TO for  MK-7075UART Interface with Firmware 0.5d
 
 *DIP Switch setting
 
