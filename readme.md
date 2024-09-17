@@ -30,8 +30,8 @@ This is why, i make  MK-7075UART interface.
 - Diode D5 is recommend for pcb "engineering sample" for often reprogramming, while Solartron is turned off. Oterhwise, you can placed it with wire (or 0 ohm 2510 resistor)
 
 # Bill of material
-- [![csv-file ](https://github.com/matt1187/7075UART/blob/main/gerber/MK-7075UART-000.csv)]
-- [![gerber-file ](https://github.com/matt1187/7075UART/blob/main/gerber/gerber.zip)]
+- [![csv-file ](https://github.com/matt1187/7075UART/blob/main/Gerber/MK-7075UART-000.csv)]
+- [![gerber-file ](https://github.com/matt1187/7075UART/blob/main/Gerber/Gerber.zip)]
 - [![3D-print-file ](https://github.com/matt1187/7075UART/blob/main/DDD/DDD.zip)]
 
 # Firmware
