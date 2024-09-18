@@ -13,8 +13,8 @@ DIP SW 3
  - OFF: Listener-mode: Interface responds after commando.
 
 DIP SW 4
- - ON: Normal-Mode  "+10.123VDC"
- - OFF:  Exponent Mode  "+1.0123E+1VDC"
+ - ON:  Exponent Mode  "+1.0123E+1VDC"
+ - OFF:  Normal-Mode  "+10.123VDC"
 
 # SYNTAX
 
