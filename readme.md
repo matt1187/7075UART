@@ -35,7 +35,7 @@ This is why, i make  MK-7075UART interface.
 - [![3D-print-file ](https://github.com/matt1187/7075UART/blob/main/DDD/DDD.zip)]
 
 # Firmware
-- [![atmega 8 firmware](https://github.com/matt1187/7075UART/blob/main/firmware/main%200.5d.hex.zip)]
+- [![atmega 8 firmware 0.5d](https://github.com/matt1187/7075UART/blob/main/firmware/main%200.5d.hex.zip)]
 
 # License
 The project is free for non-commercial reproduction. Do not sell it on Ebay or other platforms for profit. Do not make a closed source derivative. Share your experiences and ideas with the community.
