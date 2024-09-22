@@ -22,7 +22,7 @@ This is why, i make  MK-7075UART interface.
 # Issues 
 -  current no  remote function aviable
 
-# notes
+# Notes
 - SSD1306 is optional. (actual firmware hasn't function for OLED)
 - 74HCT165 on U11 is recommend,  (74LS165, you must modified PCB to adding of 1k Resistor on their output, otherwise, ISCP doesn't work)
 - DC/DC converter should be soldered on bottom,  SW6 dip swith should attached with socket.
