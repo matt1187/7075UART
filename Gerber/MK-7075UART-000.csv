@@ -10,7 +10,7 @@
 "D1, D2, D3, D4 ","4","1N4818","D","Diode_SMD:D_MiniMELF","Mouser","637-LL4148"
 "D5, ","1","SHOTTKY","D","Diode_SMD:D_MELF","Mouser","625-BYM13-40-E3/97 or 791-RMC1JPTE "
 "F1, ","1","RUEF90","Polyfuse","Fuse:Fuse_Bourns_MF-RG300","Mouser","650-RUEF090"
-"J1, ","1","DB9_male_MountingHoles","DB9_Female_MountingHoles","Connector_Dsub:DSUB-9_Male_Vertical_P2.77x2.84mm_MountingHoles","Mouser","D09P24A4GV00LF "
+"J1, ","1","DB9_male_MountingHoles","DB9_Female_MountingHoles","Connector_Dsub:DSUB-9_Male_Vertical_P2.77x2.84mm_MountingHoles","Mouser","649-D09P24A4GV00LF "
 "J2, ","1","ICSP","Conn_02x03_Odd_Even","Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical","Mouser","571-5-146258-3 "
 "J4, ","1","SSD1306 OLED Display","Conn_01x04_Female","Display:SSD1306","don't place","don't place"
 "JP3, ","1","","SolderJumper_2_Bridged","Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm","don't place","don't place"
