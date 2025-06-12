@@ -2,8 +2,9 @@
 
 History: Solartron 70755 GPIB Modul is useless (many people isn't capable to talking with GPIB modul) 
 This is why, i make  MK-7075UART interface.
+![7075UART3](https://github.com/user-attachments/assets/3ff45475-f419-45a4-9614-fa6fcdc50418)
+![7075uart2](https://github.com/user-attachments/assets/95795b43-7dc0-44c7-92cf-49fe8d10e0ac)
 
-![pictures](https://github.com/matt1187/7075UART/blob/main/pictures/7075UART-1.jpg)
 
 # PCB Revision History 
 - MK-7075UART-000 improvement draft from  7075UART-000
